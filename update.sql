@@ -1,5 +1,3 @@
--- Запись в журнал о весе и росте
--- Уровень изоляции транзацкии - RU, т.к. чтений нету
 create or replace function writeLog(
     LogId_ int,
     Weight_ float,
